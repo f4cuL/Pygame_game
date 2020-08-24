@@ -19,11 +19,10 @@ class Nave(pygame.sprite.Sprite):
         superficie.blit(self.image,self.rect)   #Dibujamos la nave.
 
     def disparo(self):
-        pygame.mixer.init()
         bala=Bala(self.rect.x+13,self.rect.y+5)   #Instanciamos las bala sobre la nave
         self.ListaDisparo.append(bala)
-        #SonidoDisparo=pygame.mixer.Sound("Sonidos/disparo1.waw")
-        #pygame.mixer.Sound.play(SonidoDisparo)
+        SonidoDisparo=pygame.mixer.Sound("Sonidos/disparo1.wav")
+        pygame.mixer.Sound.play(SonidoDisparo)
 
     def update(self,ventana):
 
