@@ -1,0 +1,27 @@
+sprites que hay que conseguir antes de empezar la programacion
+los sprites 64x64 despues pueden ser rescalables
+-nave{
+	sprite de la nave
+	animacion de disparo(solo es un fogeo adelante de la nave en loop);
+	animacion de la nave inclinandose para la derecha con fogeo y sin fogeo
+	animacion de la nave inclinandose para la izquierda con fogeo y sin fogeo	
+}
+	
+-naves enemigas{
+	-de 3 a 5 modelos de naves
+	-sprite de las naves en 8 posiciones(esto se puede conseguir rotando en 45º grados)//preguntar a seba
+	-adicionalemnte si las naves disparan hay que hacer los fogeos en caso de que no no hacen falta
+}
+
+-poderes{
+	-tienen que idear un poder como si fuera equipable a la nave y se use como municon ej: un lazer, tirar bombas, etc
+	-del poder tienen que hacer el sprite de la municion y hacer un icono (ej: los del metal slug)
+	-tienen que idear un poder "especial" cargable por ej:una bomba nuclear, un rayo que salga para todos lados
+}
+
+-bacgrounds{
+	tienen que buscar los fondos compatibles con su dimencion para 3 a 5 niveles
+
+}
+
+#si alguien tiene un idea o quiere agregar algo mas avisen al grupo y lo charlamos se puede hacer de todo no se cohiban.
