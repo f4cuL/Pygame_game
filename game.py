@@ -37,7 +37,7 @@ score=0
 pygame.display.set_caption("Eric se la come doblada")
 
 # Fuente del juego
-fuente_sistema=pygame.font.SysFont("Comic Sans",30)
+fuente_sistema=pygame.font.SysFont("calibri",30)
 #Creación de un texto
 texto_muerte=fuente_sistema.render("Game Over | Press Enter to restart",0,(0,0,0),(255,0,0)) # Texto, 0 , Color, fondo //  llamarlo ventana.blit(texto,(300,300))
 #Clock para los FPS
@@ -50,7 +50,7 @@ running=True
 #Bucle juego
 sprite=0 #Para el fondo
 pygame.mixer.music.load("Sonidos/musicaFondo.wav")
-pygame.mixer.music.play() 
+pygame.mixer.music.play()
 
 
 cont=0
