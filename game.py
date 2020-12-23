@@ -34,7 +34,7 @@ recX=100
 recY=50
 #Rectangulo=pygame.Rect(0,0,recX,recY)
 score=0
-pygame.display.set_caption("Eric se la come doblada")
+pygame.display.set_caption("Juego en python test")
 
 # Fuente del juego
 fuente_sistema=pygame.font.SysFont("calibri",30)
